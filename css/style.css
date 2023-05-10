@@ -17,16 +17,16 @@
 
 .menu-esquerdo{
   width: 20vw;
-  height: 81vh;
+  height: 75.5vh;
+  margin-top: -25px;
   background: #242454;
   border-radius: 15px;
-  margin-top: 15px;
 
 }
 
 .perfil{
   width: 16vw;
-  height: 50vh;
+  height: 47vh;
   background: #5C45E3;
   border-radius: 15px;
   padding: 2vw;
@@ -40,7 +40,7 @@
 }
 
 .perfil .p1{
-  font-size: 0.625em;
+  font-size: 0.425em;
   margin-top: 3vw;
 }
 .perfil .p2{
@@ -87,3 +87,12 @@
   background: #242454;
   border-radius: 15px;
 }
+
+.conteudo-direita-padrao .p1{
+  font-size: 0.425em;
+  margin-top: 3vw;
+  color: white;
+  padding: 15px;
+}
+
+
