@@ -1,0 +1,89 @@
+*{
+  font-size: 1.125em;
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.principal{
+  background: #0E1323;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-esquerdo{
+  width: 20vw;
+  height: 81vh;
+  background: #242454;
+  border-radius: 15px;
+  margin-top: 15px;
+
+}
+
+.perfil{
+  width: 16vw;
+  height: 50vh;
+  background: #5C45E3;
+  border-radius: 15px;
+  padding: 2vw;
+  color: white;
+}
+
+.perfil img{
+  width: 5vw;
+  border: 2px solid white;
+  border-radius: 50px ;
+}
+
+.perfil .p1{
+  font-size: 0.625em;
+  margin-top: 3vw;
+}
+.perfil .p2{
+  font-weight: bold;
+  margin-top: 1vw;
+}
+
+.menu-links a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #5C45E3;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.725em;
+  padding: 0 3vw;
+  margin-top: 0.9vw;
+}
+
+.menu-links a:hover{
+  color: #4e4eb1;
+}
+
+.conteudo-direita{
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 35px;
+}
+
+.conteudo-direita-padrao{
+  width: 35vh;
+  height: 16vw;
+  background: #E68968;
+  margin-bottom: 35px;
+  border-radius: 15px;
+}
+
+.conteudo-direita-padrao div{
+  width: 35vh;
+  height: 13vw; 
+  margin-top: 42px; 
+  background: #242454;
+  border-radius: 15px;
+}
